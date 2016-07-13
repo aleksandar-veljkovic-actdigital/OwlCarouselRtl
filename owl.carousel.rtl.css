@@ -1,0 +1,11 @@
+.owl-controls {
+    float: none !important;
+}
+.owl-prev {
+   left : 0px !important;
+   right : auto !important;
+}
+.owl-next {
+   left : 20px !important;
+   right : auto !important;
+}
