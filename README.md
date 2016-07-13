@@ -51,8 +51,24 @@ Same as basic OwlCarouse, extended by:
 * Fixing 'Navigation buttons trigger twice' on Galaxy S3
 
 
+### if you are using opencart journal2 :
+Journal (opencart extension) version 2.0 which using owl-careusel 1.3 not support RTL .
 
+you need to check language if it is RTL or not :
 
+RTL 
+```js
+$(".owl-carousel").owlCarouselRtl();
+```
+and import owl.careusel.rtl.css
+```html
+ <!-- RTL CSS  -->
+<link rel="stylesheet" href="owl-carousel-rtl/owl.carousel.rtl.css">
+```
+LTR
+```js
+$(".owl-carousel").owlCarousel();
+```
 License
 ------------
 The MIT License (MIT)
